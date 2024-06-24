@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: transparent;
+  /* font-family: "Averia Serif Libre"; */
+  user-select: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  overflow: hidden;
+  overflow-y: scroll;
+}
+a {
+  color: rgb(0, 0, 0);
+}

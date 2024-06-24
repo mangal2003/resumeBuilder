@@ -1,0 +1,59 @@
+#bgLogin {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 95vh;
+}
+.title {
+  text-transform: uppercase;
+  margin: 1rem auto;
+  text-align: center;
+  color: #000;
+  user-select: none;
+}
+#contactForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+.name,
+.email,
+.msg {
+  background-color: #cecece95;
+  width: 80vw;
+  max-width: 280px;
+  display: block;
+  border: 1.3px solid transparent;
+  padding: 0.4rem 1rem;
+  margin: 0.41rem auto;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.name:hover,
+.email:hover,
+.msg:hover {
+  background-color: #f1f7f5;
+  width: 80vw;
+  max-width: 280px;
+  display: block;
+  border: 1.3px solid rgba(185, 185, 185, 0.646);
+  padding: 0.4rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 8px 1px rgb(224, 224, 224);
+}
+.submitBtn {
+  background-color: #a600ff;
+  border-radius: 0.3rem;
+  padding: 0.3rem 1.2rem;
+  cursor: pointer;
+  border: 1.3px solid transparent;
+}
+.submitBtn:hover {
+  border: 1.3px solid rgba(255, 255, 255, 0.815);
+  box-shadow: 0 0 8px 1px rgb(165, 165, 165);
+  background-color: #b95deb;
+}

@@ -1,0 +1,41 @@
+#navbarWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  border: 2px solid transparent;
+  border-bottom: 4px solid rgb(0, 0, 0);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 5;
+  background-color: #ffffff5d;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+.greet {
+  cursor: pointer;
+  margin-left: 10px;
+  background-color: #a600ff;
+  padding: 0.3rem 1rem;
+  color: black;
+  border-radius: 6px;
+}
+.logoutOpt {
+  cursor: pointer;
+  background-color: #a600ff;
+  border-radius: 6px;
+  padding: 0.3rem 1rem;
+  color: black;
+  margin-right: 10px;
+}
+.logoutOpt:hover,
+.greet:hover {
+  box-shadow: 0 0 15px 1px #7c7c7c;
+}
+@media print {
+  #navbarWrapper {
+    display: none;
+  }
+}
